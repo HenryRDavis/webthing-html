@@ -21,11 +21,205 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-  body{
+  /* body{
     background-color: #fff8dd;
-  }
+  } */
 /* End of General */
 
+/* Color Scheme */
+/* 
+#05386B Blue
+#379683 Blue-ish Green
+#5CDB95 Green
+#8EE4AF Light Green
+#EDF5E1 Pale Sand
+*/
+/* End of Color Scheme */
+
 /* Nav */
+* {
+  background: #5CDB95;
+}
+.links {
+  padding-top: 0.5%;
+  padding-bottom: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  overflow: hidden;
+  /* background-color: #05386B; */
+}
+
+.links a {
+  color: #05386B;
+  text-align: center;
+  padding: 0.8750em 1.0000em;
+  text-decoration: none;
+  font-family: 'Limelight', cursive;
+  font-size: 1.2rem;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+
+}
+
+.links a:hover {
+  color: #379683;
+}
+
+.links h1:hover {
+  cursor: pointer;
+  color: #379683;
+}
+
+
+
+/* .home a {
+  text-decoration: none;
+}
+
+.home a h1:hover{
+  color: #379683;
+}
+ */
+
 
 /* End of Nav */
+
+/* Text/Font */
+
+h1 {
+  font-family: 'Limelight', cursive;
+  margin: 0.01% 1%;
+  height: 0px;
+  width: 100%;
+  font-size: 2rem;
+  color: #05386B;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+.IntroDiv {
+  font-family: 'Vidaloka', serif;
+  letter-spacing: 2px;
+  line-height: 40px;
+  font-size: 1.3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s; 
+}
+
+.IntroDiv h2 {
+  font-family: 'Vidaloka', serif;
+  font-size: 2rem;
+  color: #EDF5E1;
+
+}
+
+p {
+  color :#EDF5E1;
+
+}
+
+.Contact {
+  font-family: 'Vidaloka', serif;
+  letter-spacing: 2px;
+  line-height: 40px;
+  font-size: 1.3rem;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  width: 60vw;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+.Contact b {
+  color:#EDF5E1
+}
+
+/* about page */
+
+.About {
+  font-family: 'Vidaloka', serif;
+  letter-spacing: 2px;
+  line-height: 35px;
+  font-size: 1.3rem;
+  text-align: center;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+.links #title h1{
+flex-direction: row;
+}
+/* #title{
+  text-decoration: none;
+} */
+
+
+.socials {
+  display: flex;
+  justify-content: flex-end;
+  width: 70vw;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+/* image */
+/* #ooh{
+  display: flex;
+
+} */
+
+
+/* Animation */
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
